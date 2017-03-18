@@ -1,0 +1,78 @@
+
+/**
+  * * * * * * * * 
+  * Content Header 
+  **/
+#content_header {
+    margin-top: 40px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+#content_header img{
+    width: 36px;
+    height: 36px;
+}
+#content_header p[class="header"] {
+    font-size: 20px;   
+}
+#content_header p[class="info"]{
+    font-size: 16px;
+	padding: 15px;	
+}
+
+/** 
+  * * * * * * 
+  * Images
+  **/
+#create_user img , #edit_user img {
+    width: 80px;
+    height: 80px;
+    margin: 15px;
+}
+#content a:hover #create_user, #content a:hover #edit_user{
+	box-shadow: 0px 0px 10px #3381FF;
+}
+/** 
+  * * * * * * *
+  * Create User
+  **/
+#create_user{
+	position: relative;
+	width: 250px;
+	height: 150px;
+	padding: 15px;
+	margin-left: 200px;
+	border-radius: 5px;
+	box-shadow: 0px 0px 5px gray;
+}
+#create_user p, #edit_user p {
+	text-align: center;
+}
+/** 
+  * * * * * * *
+  * Edit User
+  **/
+#edit_user{
+	position: relative;
+	border-radius: 5px;
+	width: 250px;
+	height: 150px;
+	padding: 15px;
+	margin-left: 515px;
+	margin-top: -180px;
+	box-shadow: 0px 0px 5px gray;
+}
+/**  
+  * * * * * * 
+  * Background Picture
+  **/
+#background-pic {
+	position: absolute;
+	top: 760px;
+	left: 10px;
+	width: 250px;
+	height: 100px;
+	}
+.admin_pic {
+    opacity: 0.2;
+}	

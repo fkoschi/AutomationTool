@@ -1,0 +1,392 @@
+/**  
+  * * * * * * 
+  * Background Picture
+  **/
+#background-pic {
+	position: absolute;
+	top: 760px;
+	left: 10px;
+	width: 250px;
+	height: 100px;
+	}
+#background-pic img {
+	width: 250px;
+	height: 250px;
+	opacity:0.3;
+	}
+#chartPassed {
+	width: 400px;
+	height: 300px;
+	box-shadow: 0px 0px 25px gray;
+	margin: 20px 10px;	
+}
+#chartRunErr {
+	width: 400px;
+	height: 300px;
+	box-shadow: 0px 0px 50px gray;
+	margin-left:80;	
+	margin-top: 20px;
+	margin-bottom: 20px;	
+}
+#chartOverviewBox {
+	width: 500px;
+	height: 300px;
+	box-shadow: 0px 0px 25px gray;	
+	background: white;
+	position: absolute;
+	margin-top: -320px;
+	margin-left: 450px;
+}
+#chartOverview {
+	height: 200px;
+	width: 400px;
+	position: absolute;
+	left: 50;
+}
+#chartOverviewBox h3 {
+	margin-left: 10px;
+}
+#chartOverviewBox p.date {
+	margin-top: 15px;
+	margin-left: 10px;
+	font-size: 14px;
+}
+#chartOverviewBox p.counterCompletedTasks {
+	position: absolute;
+	bottom: 10;
+	right: 10;
+	font-size: 12px;
+}
+#chartOverviewBox p.selectTitle {
+	position: absolute;
+	top: 10;
+	right: 50;
+	font-size: 12px;
+}
+#chartOverviewBox select[name="server"] {
+	width: 80px;
+	position: absolute;
+	top: 25;
+	right: 10;
+}
+/** 
+ * * LOADING IMAGE WHILE AJAX IS LOADING RIGHT GAUGE CHART
+ **/
+ #loading-image_gauge i {
+ 	position: relative;
+ 	left: 200;
+ 	top: 250;
+ }
+#GaugeDiv , #loading-image_gauge{
+	position: absolute;	
+	width: 400px;
+	height: 300px;
+	top: 184px;	
+	right: 80px;
+	box-shadow: 0px 0px 50px gray;
+}
+#GaugeDiv h3 {
+	margin-left: 10px;
+}
+#GaugeDiv p.header_server {
+	position: absolute;
+	font-size: 12px;
+	left: 10px;
+	top: 55px;
+}
+#GaugeDiv p.title_server {
+	position: absolute;
+	font-size: 14px;	
+	text-align: center;
+	left: 10px;
+	width: 390px;
+	top: 115px;
+}
+#GaugeDiv select {
+	width: 100px;
+	right: 25px;
+	top: 25px;
+	position: absolute;
+}
+#GaugeDiv #gauge_div {	
+	margin-left: 10px;
+	margin-top: 110px;		
+}
+/** 
+  * * H1 Monitoring
+  **/
+h1.monitoring {
+	margin-bottom: 10px;
+}
+/** 
+  TimeLine 
+**/
+#timeline_one {
+	margin-top: -30px;	
+}
+#header_content {
+	text-align: center;
+	margin: 10px;	
+}
+#header_content p {
+	font-size: 18px;
+	font-weight: bold;
+}
+.Zeitgrenzen {
+	text-align: center;
+	margin-top: auto;
+	z-index: 2;
+}
+.Zeitgrenzen input {
+	width: 100px;
+	position: relative;
+	height: 30px;
+	z-index: 2;
+	text-align: center;
+}
+p[class="info_header_content"] {
+	font-size: 12px !important;
+	font-weight: normal !important;
+	text-align: center;
+}
+i[class="icon-search"]{
+	margin-left: 10px;
+	cursor: pointer;
+	position: relative;
+	z-index: 2;
+}
+/**
+ *** Tabs ***
+ **/
+ul.content_tabs li {
+	box-shadow: 1px 1px 1px #808080;
+    display: inline;
+	border-bottom-right-radius: 5px;
+    margin-left: 5px;
+    padding: 0px 15px 10px;
+    text-decoration: none;	
+    color: black;
+}
+ul.content_tabs li strong {
+	font-size: 12px;
+}
+ul {
+	text-align: center;
+	}
+#active_tab {
+	box-shadow: 1px 1px 1px #3F88FF;
+	color: #3F88FF;	
+}
+#content_tabs {
+	height: 40px;	
+	font-size: 14px;
+	margin-left: auto;
+	margin-right: auto;
+	}
+#content_tabs img {
+	width: 18px;
+	height: 18px;	
+	margin-bottom: -5px;
+	margin-right: 5px;
+}
+/** 
+  * TABELLE 
+  **/
+.symbol {
+	width: 25px;
+	height: 25px;
+	top: 5px;
+	position: relative;
+}
+.ampel {
+	margin-left: 50px;
+	width: 22px;
+	height: 22px;
+	}
+table {
+	margin-top: 10px;
+	margin-left: 80px;
+	}
+thead th {
+    font-size: 16px;
+	height: 20px;
+	}
+.one {
+	width: 50px;		
+	}
+.two {	
+	width: 400px;
+	color: #1C86EE;	
+	}
+.three{
+	width: 200px;
+	color: #1C86EE;
+}
+.four { 
+	width: 110px;
+	color: #1C86EE;
+}
+.five {
+	width: 60px ;
+	color: #1C86EE;
+	}
+.six {
+	width: 10px;
+	color: #1C86EE;
+	}
+.seven {
+	color: #1C86EE;;
+}
+td {
+    font-size: 14px;
+	height: 22px;
+	}
+/** 
+  * Passed
+  *
+  **/
+table.passed {
+	margin-left: 30px;
+}
+table.passed td {
+	height: 10px;
+}
+table.passed .one {
+	width: 35px;
+}
+table.passed .two {
+	width: 380px;
+}
+table.passed .three {
+	width: 70px;
+}
+table.passed .four {
+	width: 180px;
+}
+table.passed .five {
+	width: 100px;
+}
+table.passed .six {
+	width: 50px;
+}
+table.passed td.img img {
+	margin-bottom: -5px;
+}
+table.passed td.light img {
+	margin-bottom: -7px;
+}
+/**
+  * Today
+  *
+  **/
+#table_tasks_today {
+	height: 240px;
+	overflow: scroll;
+}
+table.today {
+	height: 30px;
+	margin-left: 30px;
+}
+table.today td {
+	height: 12px;
+}
+table.today .one {
+	width: 30px;
+}
+table.today .two {
+	width: 380px;
+}
+table.today .three {
+	width: 80;
+}
+table.today .four {
+	width: 160px;	
+}
+table.today .five {
+	width: 70px;
+}
+table.today .six {
+	width: 30px;
+}
+table.today .seven {
+	width: 150px;
+	text-align: right;
+}
+table.today td.estimatedTime {
+	text-align: right;
+}
+table.today td.NextRunTime {
+	text-align: center;
+}
+table.today td.light img {
+	margin-bottom: -5px;
+	margin-left: 5px;
+	margin-right: 10px;
+}
+/**
+  * RunErr
+  * 
+**/
+table.RunErr {
+	height: 80px;
+}
+table.RunErr .one {
+	width: 30px;
+}
+table.RunErr .two {
+	width: 380px;
+}
+table.RunErr .three {
+	width: 80px;
+}
+table.RunErr .four {
+	width: 110px;	
+}
+table.RunErr .five {
+	width: 50px;	
+}
+table.RunErr .six {
+	width: 150px;
+}
+table.RunErr td.img img{
+	margin-bottom: -5px;
+}
+table.RunErr td.light img{
+	margin-left: 10px;
+	margin-bottom: -5px;
+}
+tbody.RunErr tr , tbody.RunErr td {
+	height: 20px;
+}
+/** 
+  * NO RESULT 
+  **/
+#NoResult {
+	position: absolute;
+	width: 500px;
+	margin: 50px 200px 0px;
+	text-align: center;
+}
+#NoResult img {
+	width: 64px;
+	height: 64px;
+	margin: 20px;
+}
+/** 
+ * ICON Refresh
+ **/
+i.icon-refresh {
+	cursor: pointer;
+	position: relative;
+	top: -100px;
+	left: 40px;
+	color: #007AC8;
+}
+/** 
+ * ZULETZT AKTUALISIERT
+ **/
+ p.timeUpdated {
+ 	font-size: 11px;
+ 	position: absolute;
+ 	bottom: 3px;
+ }

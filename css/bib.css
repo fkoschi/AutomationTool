@@ -1,0 +1,60 @@
+.book_pic{
+	opacity:0.1;
+	filter:alpha(opacity=5);
+}
+#content #sftp , #content #batch , #content #vbs{
+	position: relative;
+	float: left;
+	width: 240px;
+	height: 190px;
+	box-shadow: 0px 0px 5px grey;
+	border-radius: 5px;
+	padding: 10px;
+	margin: 10px;
+	font-size: 14px;
+}
+#content a {
+	text-decoration: none;
+	color: black;
+}
+#content a:hover #sftp, #content a:hover #batch , #content a:hover #vbs{
+	box-shadow: 0px 0px 10px #0178C6;
+}
+#content #sftp img {	
+	width: 80px;
+	height: 80px;
+	margin-bottom:15px;
+	margin-top: 30px;
+	margin-left: 70px;
+}
+#content #batch img, #content #vbs img {	
+	width: 80px;
+	height: 80px;
+	margin-bottom:15px;
+	margin-top: 30px;
+	margin-left: 70px;
+}
+#box_title p {
+	font-weight: bold;
+	font-size: 18px;
+	color: #0178C6;
+}
+#background-pic {
+	position: absolute; 
+	left: -15px;
+	bottom: 30px;
+	width: 300px;
+	height: 250px;
+	}
+#content #content_header  {
+	margin-top: 15px;
+	font-size: 20px;
+	text-align: center;
+}
+#content #content_header p {
+	font-size: 14px;
+}
+#content #content_boxes {
+	padding: 20px;
+	margin-left: 60px;
+}

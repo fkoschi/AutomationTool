@@ -1,0 +1,234 @@
+/** 
+  * HTML 
+  **/
+html {
+	background: #87CEFA;
+	/*background-image:url('../img/sky.jpg');
+	background-size: 1600px 1200px; 
+	background-repeat: no-repeat; */
+	/*background: #041747;*/		
+	/*
+	background: -moz-radial-gradient(center, ellipse cover,  rgba(135,206,250,0) 0%, rgba(69,147,211,0.5) 50%, rgba(135,206,250,1) 100%); 
+	background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgba(135,206,250,0)), color-stop(50%,rgba(69,147,211,0.5)), color-stop(100%,rgba(135,206,250,1))); 
+	background: -webkit-radial-gradient(center, ellipse cover,  rgba(135,206,250,0) 0%,rgba(69,147,211,0.5) 50%,rgba(135,206,250,1) 100%); 
+	background: -o-radial-gradient(center, ellipse cover,  rgba(135,206,250,0) 0%,rgba(69,147,211,0.5) 50%,rgba(135,206,250,1) 100%); 
+	background: -ms-radial-gradient(center, ellipse cover,  rgba(135,206,250,0) 0%,rgba(69,147,211,0.5) 50%,rgba(135,206,250,1) 100%);
+	background: radial-gradient(ellipse at center,  rgba(135,206,250,0) 0%,rgba(69,147,211,0.5) 50%,rgba(135,206,250,1) 100%); 
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0087cefa', endColorstr='#87cefa',GradientType=1 );  
+	*/
+}
+/**
+  * BODY
+  **/
+body {
+	font-family:Helvetica,sans-serif;
+	position: relative;
+	width: 1280px;
+	height: 1024px;
+	background-color: white;	
+	margin: auto;
+	margin-top: 20px;
+	margin-bottom: 20px;		
+	/*border: 0.1px solid black;*/
+	border-radius: 5px;
+	border-top-left-radius: 50px;	
+	box-shadow: 0px 0px 5px gray;
+}
+/**
+  * USERNAME
+  **/
+p.Username {
+	position: absolute;
+	z-index: 2;
+	width: 100px;
+	height: 20px;
+	text-align: center;
+	padding-top: 5px;
+	left: 1080px;
+	top: 222px;
+	box-shadow: 0px 0px  1px grey;
+	border-radius: 5px;
+	background: #f8f8f8;
+	cursor: pointer;
+}
+a.username {
+	text-decoration: none;
+}
+a.username:hover p.Username {
+	color: #041747;
+	background: #B4CDCD;
+	box-shadow: 1px 1px 2px 2px gray;
+}
+/** 
+  * CONTENT 
+  **/
+#content {
+	width: 1000px;
+	height: 730px;	
+	position: absolute;
+	/*border: 0px solid #041747;*/
+	/*box-shadow: 0px 0px 1px #041717;*/
+	padding: 5px;
+	left: 215px;
+	top: 255px;	
+	/* BOX SHADOW */
+	box-shadow: -5px 5px 15px 3px #D6D6D6;
+	-moz-box-shadow: 0px 0px 1px 1px #041717;
+	-webkit-box-shadow: 0px 0px 1px 1px #041717;	
+	/* FARBVERLAUF - GRADIENT */
+	background-image: -webkit-linear-gradient(#EEEEEE 0%, white 100%); 
+	background-image: -moz-linear-gradient(#EEEEEE 0%, white 100%); 
+	background-image: -o-linear-gradient(#EEEEEEEEEEEE 0%, white 100%); 
+	background-image: linear-gradient(#EEEEEE 0%, white 100%);
+	overflow: auto;
+	border-radius: 5px;
+}
+/**
+  * ÜBERSCHRIFT
+  **/
+h1 {
+	text-align: center;
+	margin-bottom: 40px;
+	font-size: 28px;
+}
+#navi h1 {
+	font-size: 18px;
+	margin-bottom: 20px;
+}
+a.btn{
+	position: absolute;
+	top: 220px;
+	right: 55px;
+	color: red;	
+}
+/** 
+  * LINDORFF LOGO 
+  **/
+#logo {
+	width: 50%;
+	height: 20%;
+	position: relative;
+	margin: 0px;
+	margin-left: 20px;
+	margin-top: 20px;
+	padding: 10px;
+}
+#navi a.btn:hover, a.btn:active{
+	color: red;	
+}
+/** 
+  * NAVIGATIONSLEISTE
+  **/
+#navi li.active {
+    background: #B4CDCD;
+}
+#navi li a {	
+	text-decoration: none;
+}
+* li:hover, * a:hover {
+    text-decoration: none;
+}
+
+#navi li a:hover, #navi li:hover {
+	text-decoration: none;
+	color: #3381FF;	
+	border:1px solid #B4CDCD;    
+}
+#navi {
+	margin-top: 10px;
+	position: relative;
+	width: 190px;
+	height: 500px;
+	margin-left: 5px;	
+	padding: 5px;
+	color: #041747;	
+	border-radius: 5px;
+}
+#navi li{
+	list-style: none;	
+	text-decoration: none;
+	text-align: left;
+	margin-bottom: 2px;
+	padding: 10px;
+	border-radius: 5px;	
+	}
+#navi i {	
+	z-index: 1;
+	margin-left: 5px;	
+	margin-right: 10px;
+}
+#navi a{	
+	margin: 10px;	
+	color: #041747;		
+}
+/**
+  * BACKGROUND IMAGE
+  **/
+.home_pic {		
+	opacity: 0.2;
+}
+	
+#title{
+	text-align: center;	
+}
+#title h1 {
+	margin-top: 10px;
+}
+
+#footer {
+	position: relative;	
+	top: 260px;
+	margin-left: 1150px;	
+	font-size: 12px;
+	}
+#clock_time {
+	position: absolute;
+	z-index: 0;	
+	width: 1000px;
+	left: 430px;
+	top: 200px;
+	text-align: center;
+	padding: 10px;
+}
+#clock_time img {
+	width: 32px;
+	height: 32px;
+	margin-left: 10px;
+	margin-right: 10px;
+	visibility: hidden; 
+}
+/**
+  * CANVAS 
+  **/
+ canvas {
+	position: absolute;
+	left: 860px;
+	top: 145px;
+ } 
+ img[name="clock_stroke"] {
+	position: absolute;
+	z-index: 1;
+	left: 844px;
+	top: 130px;
+ }
+/** 
+  * FOLDER ICON 
+  *
+  * BIBLIOTHEK
+  **/
+#content_header a.alien-lfl-href-buttonLink {
+	position: absolute;
+	left: 900px;
+	top: 50px;
+}
+/**
+  * GESAMTANZAHL TASKS
+  *
+  **/
+#num_of_tasks {
+	position: absolute;
+	width: 150px;
+	right: 55px;
+	bottom: 30px;
+	font-size: 11px;
+}

@@ -1,0 +1,122 @@
+<?php 
+//include('php/validate.php');
+?>
+<!DOCTYPE HTML5>
+<html>
+<head>
+	<title>Home - Bereich</title>
+
+<script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+<link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.no-icons.min.css" rel="stylesheet">
+<link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="css/font-awesome.css">
+<link rel="stylesheet" type="text/css" href="css/font-awesome-ie7.css">
+<link rel="stylesheet" type="text/css" href="css/reset.css">
+<link rel="stylesheet" type="text/css" href="css/index.css">
+</head>
+</head>
+<body>	
+<div id="time">
+<?php 
+	echo "<i class='icon-time'><b>  " . date("d.m.Y") . "</b></i>";
+?>
+</div>
+<div id="logo" >
+<img src="img/Lindorff_Logo.jpg" alt="Logo" class="logo" />
+</div> <!-- logo --> 
+<div id="user_logo">
+	<img src="img/avatar.jpg" alt="user_logo" />
+</div> <!-- user_logo -->
+<div id="navi">	
+<h1>Navigation</h1>
+<!-- Navigationsleiste -->
+<ul>
+	<li><a href="index.php"><i class="icon-home icon-2x"></i> Home</a></li>
+	<li><a href="php/jobs.php"><i class="icon-spinner icon-2x"></i> Jobs</a></li>	
+	<li><a href="bib.php"><i class="icon-book icon-2x"></i> Bibliothek</a></li>
+	<li><a href="user.php"><i class="icon-user icon-2x"></i> User</a></li>	
+	<li><a href="settings.php"><i class="icon-cogs icon-2x"></i> Einstellungen</a></li>
+	<li><a href="monitoring.php"><i class="icon-code icon-2x"></i> Monitoring</a></li>
+</ul>
+</div> <!-- navi -->
+
+<a class="btn" href="logout.php" ><i class="icon-signout"></i></a>		
+
+<div id="content">
+	<!-- Überschrift -->
+	<div id="title">
+		<i class="icon-home icon-2x "> HOME</i>		
+	</div> <!-- title --> 
+	<p class="p_info">Kontrollzentrale für automatisch laufende Jobs</p>
+	<!-- Trennlinie -->
+	<hr class="hr_title">
+	
+	
+	
+<!----------- linker Bereich ------------->
+	<div id="server">
+	
+	<h1 class="server">Server</h1>
+	<hr class="hr_server">	
+	
+	<!-- Server 1 -->	
+	<div id="server_1">
+	<a href="php/server/fcap17.php">
+		<i class="icon-desktop icon-5x"></i>
+	<p><b>Fcap17</a></b></p>
+	</div>	
+	
+	<!-- Server 2 --> 	
+	<div id="server_2">
+	<a href="php/server/fcap09.php">
+		<i class="icon-desktop icon-5x"></i>
+	<p><b>Fcap09</a></b></p>
+	</div>
+	
+	<br><p><i class="icon-chevron-right"></i> Übersicht über alle Server, auf denen relevante Jobs laufen.</p>
+	</div>
+	
+	
+	<div id="bib">
+	
+	<!-- Bib -->
+	<h1 class="bib">Bibliothek</h1>
+	<hr class="hr_bib">	
+	<a href="php/bib.php"><i class="icon-book icon-5x"></i></a>
+	<p><i class="icon-chevron-right"></i> Hier steht eine Auswahl an Methoden und Funktionen zur Verfügung, welche bei der Implementierung von neuen automatischen Jobs helfen sollen. Unter anderem geht es hierbei um Funktionen im Bezug auf die Skriptsprachen VBScript,und die Batch-Programmierung.</p>
+	
+	</div>
+<!----------- linker Bereich ------------->
+
+
+<!-------- rechter Bereich -------->	
+	<!-- User -->
+	<div id="user">
+	
+		<h1 class="user">User</h1>
+		<hr class="hr_user">
+		<a href="php/user.php"><i class="icon-user icon-5x"></i></a>
+		<br><p><i class="icon-chevron-right"></i> Hier besteht die Möglichkeit der Userverwaltung</p>
+	
+	</div>
+	
+	<!-- Monitoring -->
+	<div id="monitoring">
+		
+		<h1>Monitoring</h1>
+		<hr>
+		<a href="php/monitoring.php"><i class="icon-code icon-5x"></i></a>
+		<br><p><i class="icon-chevron-right"></i> In diesem Bereich können die Jobs überwacht und eingestellt werden. So werden unter anderem die letzte Ausführungszeit angezeigt, und ob es Probleme bei der Ausführung gab.</p>
+	
+	</div>
+<!-------- rechter Bereich -------->	
+
+</div>
+<!-- content --> 
+
+<!-- Footer -->
+<div id="footer">
+	<p>&copy; Lindorff 2013</p>
+</div> <!-- footer --> 
+</body>
+</html>

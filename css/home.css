@@ -1,0 +1,165 @@
+/* ---------- */
+/* Hyperlinks */
+/* ---------- */
+ 
+#content a {
+	text-decoration: none;
+	}
+#content a:hover  #o_links, #content a:hover #o_rechts , #content a:hover #u_links, #content a:hover #u_rechts{
+	box-shadow: 0px 2px 2px #3381FF;
+	}
+	
+/* Background Picture */
+/* ------------------ */
+#background-pic {
+	position: absolute;
+	top: 700px;
+	width: 350px;
+	height: 200px;
+	}
+	
+/**----------
+Kalender 
+---------*/
+#kalender {
+	position:relative; 
+	z-index: 2;
+	padding: 5px;
+	box-shadow: 0px 1px 1px 1px grey;
+	margin-top: 40px;
+	margin-left: 20px;
+	margin-right: 20px;	
+	}
+#kalender td {
+	padding: 1px;
+	}
+
+/* ------------------ */
+/* Bereich links oben */
+/* ------------------ */
+
+#o_links {
+	position: relative;
+	margin-left: 150px;
+	margin-top: 100px;
+	width: 300px;
+	height: 250px;	
+	box-shadow: 0px 1px 2px grey;
+	background-image: -webkit-linear-gradient(#EEEEEE 0%, white 100%); 
+	background-image: -moz-linear-gradient(#EEEEEE 0%, white 100%); 
+	background-image: -o-linear-gradient(#EEEEEE 0%, white 100%); 
+	background-image: linear-gradient(#EEEEEE 0%, white 100%);
+	border-radius: 5px;
+}
+#h_o_links h2  {
+	color:  #3381FF;
+	font-size: 16px;
+	margin-left: 20px;
+	}
+#img_o_links {
+	width: 110px;
+	height: 110px;	
+	margin-left: auto;
+	margin-right: auto;
+	}
+#txt_o_links {
+	margin: 20px;
+	color: black;
+}
+/* ------------------ */
+/* Bereich rechts oben */
+/* ------------------- */
+
+#o_rechts {
+	position: relative;
+	margin-left: 550px; 
+	margin-top: -250px;
+	width: 300px;
+	height: 250px;
+	box-shadow: 0px 1px 2px grey;
+	background-image: -webkit-linear-gradient(#EEEEEE 0%, white 100%); 
+	background-image: -moz-linear-gradient(#EEEEEE 0%, white 100%); 
+	background-image: -o-linear-gradient(#EEEEEE 0%, white 100%); 
+	background-image: linear-gradient(#EEEEEE 0%, white 100%);
+	border-radius: 5px;
+}
+#h_o_rechts {
+	color: #3381FF;
+	font-size: 16px;
+	margin-left: 20px;
+	}
+#img_o_rechts {
+	width: 110px;
+	height: 110px;	
+	margin-left: auto;
+	margin-right: auto;
+	}
+#txt_o_rechts {
+	margin: 20px;
+	color: black;
+}
+/* ------------------- */
+/* Bereich links unten */ 
+/* ------------------- */
+
+#u_links {
+	position: relative;	 	
+	margin-left: 150px;
+	margin-top: 50px;
+	width: 300px;
+	height: 250px;
+	box-shadow: 0px 1px 2px grey;
+	background-image: -webkit-linear-gradient(#EEEEEE 0%, white 100%); 
+	background-image: -moz-linear-gradient(#EEEEEE 0%, white 100%); 
+	background-image: -o-linear-gradient(#EEEEEE 0%, white 100%); 
+	background-image: linear-gradient(#EEEEEE 0%, white 100%);
+	border-radius: 5px;
+}
+#h_u_links{
+	color: #3381FF;
+	font-size: 16px;
+	margin-left: 20px;
+	}
+#img_u_links {
+	width: 110px;
+	height: 110px;	
+	margin-left: auto;
+	margin-right: auto;
+	}
+#txt_u_links {
+	margin: 20px;
+	color: black;
+}
+/* -------------------- */
+/* Bereich rechts unten */
+/* -------------------- */ 
+
+#u_rechts {
+	position: relative;	 	
+	margin-left: 550px;
+	margin-top: -250px;
+	width: 300px;
+	height: 250px;
+	box-shadow: 0px 1px 2px grey;
+	background-image: -webkit-linear-gradient(#EEEEEE 0%, white 100%); 
+	background-image: -moz-linear-gradient(#EEEEEE 0%, white 100%); 
+	background-image: -o-linear-gradient(#EEEEEE 0%, white 100%); 
+	background-image: linear-gradient(#EEEEEE 0%, white 100%);
+	border-radius: 5px;
+}
+#h_u_rechts{
+	color: #3381FF;
+	font-size: 16px;
+	margin-left: 20px;
+	}
+#img_u_rechts {
+	width: 110px;
+	height: 110px;	
+	margin-left: auto;
+	margin-right: auto;
+	}
+#txt_u_rechts {
+	margin: 20px;
+	color: black;
+}
+

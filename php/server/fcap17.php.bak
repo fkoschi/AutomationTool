@@ -1,0 +1,61 @@
+<?php 
+	//include('php/validate.php');
+?>
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title></title>
+
+<!-- Stylesheets -->
+<script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+<link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.no-icons.min.css" rel="stylesheet">
+<link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="../../css/font-awesome.css">
+<link rel="stylesheet" type="text/css" href="../../css/font-awesome-ie7.css">
+<link rel="stylesheet" type="text/css" href="../../css/reset.css">
+<link rel="stylesheet" type="text/css" href="../../css/index.css">
+<link rel="stylesheet" type="text/css" href="../../css/server.css">
+	</head>
+	
+<body>
+	<div id="time">
+<?php 
+	echo "<i class='icon-time'><b>  " . date("d.m.Y") . "</b></i>";
+?>
+</div>
+<div id="logo" >
+<img src="../../img/Lindorff_Logo.jpg" alt="Logo" class="logo" />
+</div> <!-- logo --> 
+<div id="user_logo">
+	<img src="../../img/avatar.jpg" alt="user_logo" />
+</div> <!-- user_logo -->
+<div id="navi">	
+<h1>Navigation</h1>
+<!-- Navigationsleiste -->
+<ul>
+	<li><a href="../../index.php"><i class="icon-home icon-2x"></i> Home</a></li>
+	<li><a href="php/jobs.php"><i class="icon-spinner icon-2x"></i> Jobs</a></li>	
+	<li><a href="bib.php"><i class="icon-book icon-2x"></i> Bibliothek</a></li>
+	<li><a href="user.php"><i class="icon-user icon-2x"></i> User</a></li>	
+	<li><a href="settings.php"><i class="icon-cogs icon-2x"></i> Einstellungen</a></li>
+	<li><a href="monitoring.php"><i class="icon-code icon-2x"></i> Monitoring</a></li>
+</ul>
+</div> <!-- navi -->
+
+<a class="btn" href="../../logout.php" ><i class="icon-off"></i></a>	
+
+<div id="content">
+	
+	<h1>Fcap17</h1>
+	<hr class="hr_title">
+	
+	<div id="icon-tasks">
+	<i class="icon-tasks icon-5x pull-right icon-muted"></i>
+	</div>
+	
+</div>	
+<div id="footer">
+	<p>&copy; Lindorff 2013</p>
+</div>
+</body>
+</html>

@@ -1,0 +1,987 @@
+#scrollable {
+	height: 555px;
+	width: 1000px;
+	overflow: scroll;	
+	z-index: 2;
+}
+/** 
+  * RUN TASK 
+  **/
+#run_task {
+	position: relative;
+	width: auto;
+	height: auto;
+	margin-left: 10px;
+	padding-top: 50px; 
+	text-align: center;
+}
+#run_task img {
+	position: absolute;
+	top: -450px;
+	right: 130px;
+	cursor: pointer;
+}
+/** 
+  * LOADING 
+  **/
+#loading {
+	position: absolute;
+	z-index: 2;
+	left: 50%;
+	top: 200px;
+}
+/** 
+  * LAST RESULT 
+  **/
+input[name="LastResult"] {
+	margin-top: 20px;
+	width: 150px !important;
+	cursor: help;
+}
+input[name="LastResult"].green{
+	box-shadow: 0px 0px 5px green;
+	color: black;
+	font-weight: bold;
+	background: #8EFF8C;
+}
+input[name="LastResult"].red {
+	box-shadow: 0px 0px 5px red;
+	color: black;
+	font-weight: bold;
+	background: #FF6A5C;
+}
+input[name="LastResult"].yellow {
+	box-shadow: 0px 0px 5px yellow;
+	color: black;
+	font-weight: bold;
+	width: 200px !important;
+	background: #FFE74C;
+}
+/** 
+  * IN WORK PROGRESS
+  **/
+#change_history p{
+	text-align: center;
+}
+/** 
+  * CHANGE OPTIONS 
+  **/
+#change #options {
+	width: 800px;
+	margin: 10px auto;
+}
+#change #options input {
+	box-shadow: 0px 0px 1px black;
+	font-size: 18px;
+	width: 250px;
+}
+#change #options p {
+	margin: 10px auto;
+}
+#change #options #options_time #left , #change #options #options_date #left {
+	float:left;
+	margin-top: -10px;
+	margin-left: 50px;
+}
+#change #options #options_time #right, #change #options #options_date #right {
+	margin-left: 500px;
+}
+#change #options input[name="/TR"] {
+	width: 800px !important;
+}
+#change #options input[type="submit"] {
+	position: relative;
+	margin-left: 700px;
+	width: 120px;
+}
+#change #options span.error_change {
+	color: red;
+	left: 40%;
+	position:absolute;
+	z-index:2;
+}
+/**  
+  * BEARBEITUNG 
+  **/
+/** 
+  * ICON EDIT 
+  **/ 
+#content i.icon-bookmark {
+	position: absolute;
+	cursor: pointer; 	
+	left: 200px;
+	top: 190px;
+}
+/** 
+  * BOOKMARK 
+  **/
+img[name="bookmark"] {
+	position: absolute;
+	z-index: 2;
+	top: 250px;
+	left: 680px;	
+}
+/** 
+  * INFOBOX
+  **/
+#infobox {
+	width: 400px;
+	height: auto;
+	border-radius: 5px;	
+	position: absolute;
+	top: 10px;
+	margin-left: 450px;	
+	z-index: 2;
+	padding: 15px;
+	background: white;
+	box-shadow: 0px 0px 5px red;
+}
+#infobox i.icon-level-up {
+	position: absolute;
+	right: 5px;
+	bottom: 5px;
+	cursor: pointer;
+}
+/** 
+  * SUCCESS
+  **/
+#success {
+	position:fixed;
+	top: 0px;
+	left: 550px;	
+	background-color: white;
+	color: green;
+	border-radius: 5px;
+	box-shadow: 0px 0px 10px green;
+	width: 250px;
+	height: 50px;
+}
+#success p {
+	font-size: 16px;
+	margin: 15px;
+	color: green;
+	text-align: center;
+}
+#success_box{
+	position:fixed;
+	z-index: 1;
+}
+
+/** 
+  * * * * * * * * 
+  * p class="info"
+  *
+  */
+p[class="info"] {
+    margin-top: 10px;
+    padding: 15px;
+    box-shadow: 0px 1px 2px grey;
+    font-size: 18px;
+    color: black;
+	text-align: center;
+}
+/**
+  * INFO 
+  **/
+#info{
+	margin-top: 10px;
+    padding: 15px;
+    box-shadow: 0px 1px 2px grey;
+    font-size: 14px;
+    color: black;	
+}
+#info h4 {
+	font-size: 14px;
+	margin-bottom: 40px;
+}
+#info input {	
+	height: 35px !important;	
+	box-shadow: 0px 0px 1px black;
+}
+#info p {
+	margin: 10px auto;
+}
+#info #first_row, #info #second_row , #info #third_row, #info #fourth_row {
+	width: 800px;	
+	margin: auto;	
+}
+#info #first_row #fr_left , #info #fourth_row #fr_left{
+	float: left;
+	margin-top: -10px;
+}
+#info #first_row #fr_right , #info #fourth_row #fr_right{
+	margin-top: 10px;
+	margin-left: 500px;
+}
+#info #first_row input, #info #fourth_row input{
+	width: 250px;
+}
+#info #second_row input, #info #third_row input {
+	width: 750px;
+}
+/**
+  ********************
+  * 		Title
+  * img enable/disable
+  **/
+#title img[name="enable"], #title img[name="disable"] {	
+	margin-left: 500px;
+	margin-top: -48px;
+	cursor:pointer;
+	z-index: 0;
+}
+  /** 
+  * * * * * * * * *
+  * Button Up/Down
+  *
+  */  
+#dp_r #button_up_down i {
+    display: block; 
+}
+#dp_r #button_up_down {
+    position: relative;
+    margin-left: 165px;
+    margin-top: -45px;
+    width: 30px;
+}
+/**
+  *
+  * Button Up / Down 
+  *
+  * Div id = daily
+  *
+  */
+	
+#daily #button_up_down button, #monthly #button_up_down button, #weekly #button_up_down button, #when_idle #button_up_down button, #dp_r #button_up_down button{
+    height: 19px;
+}
+
+#daily #button_up_down i {
+    display: block;
+    padding-bottom: 15px;
+}
+#daily #button_up_down{
+    position: relative;
+    width: 30px;
+    margin-left: 210px;
+    margin-top: -45px;
+}
+span[name="error_input"] {
+	position: absolute;
+	margin-left: 50px;
+	margin-top: 20px;
+	}
+p span[class="error_advanced_until"] {	
+	margin-left: 150px;	
+}
+/** 
+  * * * * * * * * * * 
+  * Div id = monthly 
+  * 
+  */
+#monthly #button_up_down i {
+    display: block;
+    padding-bottom: 15px;
+}
+#monthly #button_up_down{
+    position: relative;
+    width: 30px;
+    margin-left: 235px;
+    margin-top: -75px;
+}
+p[name="monthly_option_one"] {
+	margin-top: -50px;
+	margin-bottom: 30px;
+}
+p[name="monthly_option_two"] {
+	margin-bottom: 30px;
+	}
+/**
+  * * * * * * * * * * 
+  * Div id = weekly
+  *
+  */
+fieldset #weekly p {
+	margin-top: -50px;
+	margin-left: 50px;
+}
+#weekly input[name="weeks"] {
+	width: 140px;
+	}
+#checkbox_weekday input, #checkbox_weekend input{
+	margin-right: 10px;
+	margin-bottom: 15px;
+}
+#weekly #button_up_down i {
+	display: block;
+	padding-bottom: 15px;
+	}
+#weekly #button_up_down {
+	position: relative;
+	width: 30px;
+	margin-left: 220px;
+	margin-top: -45px;
+	}
+#weekly #checkbox_weekday {
+	position: absolute;
+	width: 300px;
+	height: 200px;
+	left: 500px;
+	margin-top: -80px;
+	}
+/* Samstag und Sonntag */
+#weekly #checkbox_weekend{
+	position: absolute; 
+	width: 300px;
+	height: 200px;
+	margin-top: -50px;
+	left: 630px;	
+}
+/** 
+  * * * * * * * * * * * * 
+  *    
+  * Div id = when idle
+  * 
+  */
+#when_idle #button_up_down i {
+	display: block;
+	padding-bottom: 15px;
+	}
+#when_idle #button_up_down {
+	position: relative; 
+	width: 30px;
+	margin-top: -45px;
+	margin-left: 510px;
+}
+/**
+  * * * * * * * * * * 
+  * acronym help datepicker
+  * 
+  */
+acronym[name="help_datepicker"] {
+	cursor: help;
+} 
+ 
+/**
+  * * * * * * * * * *
+  * Input Start_time
+  *
+  */
+input[name="start_time"] {
+    width: 150px !important;
+    font-size: 16px;
+}
+/**
+  * * * * * * * *
+  * Input Days
+  *
+  */
+input[name="days"] {
+    width: 100px !important;
+    font-size: 16px;
+}
+fieldset #daily p {
+	margin-top: 50px;
+	margin-left: 50px;
+}
+fieldset #daily p span {
+	margin-left: 20px;
+}
+p.weeks  {
+    position: relative;
+    margin-left: 195px;
+    margin-top: -30px;
+}
+/** 
+  * * * * * * * * * * * * * *
+  * Fieldset Informationen
+  * für die jeweilige Option
+  *
+  */
+fieldset #daily, fieldset #weekly, fieldset #monthly, fieldset #once, fieldset #when_idle{
+    visibility: hidden;
+}
+
+div.select_months,  div.advanced_schedule_options {
+	display: none; 
+}
+
+/** 
+  * * * * * * * * * * * * * *
+  * Tabs für Infos
+  * über die Tasks
+  *
+  */
+#tabs_div {
+	float:left;
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+ul.tabs li {
+    box-shadow: 1px 1px 1px grey;    
+    display:inline;
+    text-decoration: none;    
+    margin-left: 5px;    
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    
+}
+ul.tabs li:hover, ul.tabs li:hover a {
+      
+}
+ul.tabs li.first {
+    margin-left: 0px !important;
+}
+ul.tabs a li {
+    font-size: 14px;
+    font-weight: bolder;     
+    color: grey;
+}
+ul.tabs li:hover, ul.tabs a:hover {
+    color: black;
+    text-decoration: none;
+}
+ul.tabs {
+    margin-bottom: 40px;
+}
+/**
+    aktiven Tab hervorheben
+    *
+    */
+#active_tab {
+    color: black;
+    background: white;
+}
+
+/**
+  * * * * * * * * * * * * * * * * * * * * * * * * * * 
+  * Pfeil nach unten, zum animieren der Div-Container 
+  *
+  */
+#arrow1, #arrow2 {
+	cursor: pointer;
+	position: static;	
+	margin-top: -15px;
+	margin-left: 920px;	
+	width: 30px;
+	height: 30px;
+	} 
+#tab_header {
+	height: 30px;
+}
+#tab_header p {
+	font-size: 16px;
+	font-weight: bold;
+	}
+
+/**
+	Advanced Button 
+	*
+	*/
+button[name="Advanced"] {
+	position: relative;
+    margin-top: -75px;
+    margin-left: 800px;
+	}
+
+/** 
+	Submit Button
+	*/
+input[type="submit"] {
+	position: static;
+	margin-left: 840px;
+}
+button[name="task_speichern"]{
+	position: static;
+	margin-left: 860px;
+}
+
+/** 
+  * * * * * * * * * * * 
+  * Fieldset 
+  *
+  */
+fieldset {
+    height: 350px;
+	padding: 10px;
+	margin: 5px;
+	box-shadow: 0px 1px 2px grey;
+	}
+
+	
+/**
+  * * * * *  * * * * * * * * 
+  * einfaches Input Feld mit Text 
+  *
+  */
+#o_p {
+	position: relative; 
+	margin-left: auto;
+	margin-right: auto;
+}
+#u_p {
+	position: relative;
+}
+
+/**
+  * * * * * * * * * * * * * * *  *
+  *Zwei Div-Container nebeneinander 
+  *
+  */
+#dp {
+	position:relative; 		
+	}
+#dp_r, #dp_l{
+	position: relative;
+	width: 480px;
+	height: 50px;
+	}
+#dp_r input[type="text"], #dp_l input[type="text"] {
+	width: 450px;
+}	
+#dp_r {
+	left: 480px;
+	top: -30px;
+	}
+
+
+/**
+  * * * * * * * * * * * *	
+  *Hintergrund Bild 
+  *
+  */
+.job_pic {
+	opacity: 0.1;
+	}
+
+#background-pic {
+	position: absolute; 
+	left: 10px;
+	bottom: 60px;
+	width: 250px;
+	height: 200px;
+	}
+
+/**
+  * * * * * * * * * * * * 
+  * Überschrift Task 
+  *
+  */
+#task_header h4 {
+	margin-bottom: 10px;
+	}
+#content #task_header {
+	margin: 10px;
+}
+#content #task_header img {
+	margin-top: 10px;
+	width: 48px;
+	height: 48px;
+	}
+#content #task_header img[name="delete_task"]{
+	width: 24px;
+	height: 24px;
+	margin-left: 925px;
+	color: red;
+	margin-top: -40px;
+	position: absolute;
+	cursor: pointer;
+}
+p.header {
+	position: relative;
+	font-size: 20px;
+	color: #88A0B5;
+	margin-left: 70px;
+	margin-top: -35px;
+	padding-bottom: 15px;
+}
+/** 
+  * TASK INPUT 
+  **/
+#task input {
+	box-shadow: 0px 0px 1px black;
+}
+/** 
+  * DIV BOXEN 
+  **/
+#content #task, #content #schedule, #content #scheduled_task_completed , #content #idle_time, #content #power_management, #content #change_history, #content #comments, #content #add_comments , #content #change{
+	margin:10px;
+	padding:10px;
+	box-shadow: 0px 1px 2px grey;
+}
+#content input{		
+	height: 30px;
+	font-size:16px;
+	text-align: center; 
+}
+}
+#content p {	
+	margin-bottom: 5px;
+	}
+
+/**
+  * * * * * * * * * * * 
+  *	breites Input Feld 
+  *
+  */ 
+#txt_run {
+	width: 920px;
+}
+
+/**
+  * * * * * * * * * * * * * * * 
+  *Div-Container mit Checkbox 
+  *
+  */
+#ckbox input {
+    margin-top: 10px;
+	margin-right: 10px;
+    margin-left: 45px;
+}
+#ckbox p {
+	margin-top: -15px;
+	margin-left: 75px;
+}
+/** 
+  * * * * * * * * * * * * 
+  * Select Months 
+  * 
+  */
+fieldset[name="select_months"] #months {
+	position: relative; 
+	width: 800px;	
+	margin-left: auto;
+	margin-right: auto; 	
+
+}
+fieldset[name="select_months"] #select_months_left {
+	position: relative; 
+	font-size: 18px;
+	padding: 15px;
+	width: 200px; 
+	height: 200px;
+	margin-left: 100px;	
+	}
+fieldset[name="select_months"] #select_months_right {
+	position: relative; 
+	font-size: 18px;
+	padding: 15px;
+	width: 200px; 
+	height: 200px;
+	margin-top: -230px;	
+	margin-left: 500px; 	
+}
+fieldset[name="select_months"] input[type="checkbox"] {	
+	margin-right: 10px;	
+	margin-bottom: 15px;
+}
+ /** 
+   * * * * * * * * * * * 
+   * Div Once
+   * 
+   */
+fieldset #div_once p{	 
+	margin-top: -100px;
+	margin-left: 300px;	
+	}
+/** 
+  * * * * * * * * * * * *
+  * Fieldset "When Idle"
+  * 
+  */
+fieldset #when_idle p {
+	margin-top: -50px;
+	margin-left: 50px;
+}
+/** 
+  * * * * * * * * * * * * * * * * 
+  * Advanced Schedule Options
+  *
+  */
+div.advanced_schedule_options {		
+	height: 500px;
+}
+div.advanced_top {	
+	padding: 20px;
+	padding-bottom: 5px;
+	width: 900px;
+	height: 440px;
+	margin-right: 90px !important;
+}
+div.advanced_top legend {
+	font-size: 18px;
+	margin-bottom: 10px;
+}
+fieldset.advanced_bottom {
+	height: 300px;
+	margin-right: 45px;
+}
+fieldset.advanced_bottom input[name='start_time_advanced'] {
+	margin-left: 27px;
+}
+#start_date_advanced, #end_date_advanced {
+	position: relative;
+	width: 400px;
+	height: 40px;
+}
+#start_date_advanced {
+	margin-left: 50px;
+}
+#end_date_advanced {
+	margin-top: -40px;
+	margin-left: 550px;
+}
+#end_date_advanced input{
+  margin-right: 10px;
+  }
+#div_radio_button_advanced {
+	margin-left: 50px;
+	}
+/** 
+  * * * * * * * * * * * * * * *
+  *     SETTINGS
+  * 
+  */
+#scheduled_task_completed #tab_header {
+    margin-bottom: 15px;
+}
+#scheduled_task_completed #scheduled_task_completed_input input[type="checkbox"] {
+    margin-right: 10px;
+}
+#scheduled_task_completed input[name="delete_task_ifnot_scheduled"] {
+    margin-bottom: 20px;
+}
+#idle_time p[class="idle_p_one"], #idle_time p[class="idle_p_two"], #idle_time p[class="idle_p_three"], span[class="idle_time_error"]{
+    margin-left: 50px;
+}
+#scheduled_task_completed_input, #power_management_input, #idle_time_input {
+    padding: 10px;
+}
+#power_management_input input{
+    margin-right: 10px;
+}
+#scheduled_task_completed_input input[name="hours"], #scheduled_task_completed_input input[name="minutes"] {
+    width: 100px;
+} 
+/** 
+  * * * * * * * * * * * * * * *
+  *     TITLE HEADER
+  *
+  */
+#tab_title {
+    margin: 10px;
+    padding: 10px;
+}
+#tab_title #title {
+    margin-left: auto;
+    margin-right: auto;
+}
+#tab_title img {
+    width: 32px;
+    height: 32px;
+}
+/** 
+  * * * * * * * * * * * * * * * 
+  *     CHANGE HISTORY 
+  * 
+  */
+#change_history {
+    height: 400px;
+}
+#change_history #infos {
+	padding: 20px;
+}
+/** 
+  * * * * * * * * * * * * * * * 
+  *     COMMENTS
+  *
+  */
+#add_comments textarea {
+    width: 500px !important;
+}
+#add_comments button {
+    margin-top:70px;
+}
+/** 
+  * * * * * * * * * * * * * * * 
+  *     COMMENT
+  * 
+  */
+#comment {
+    padding: 10px;
+    margin: 10px;
+    box-shadow: 0px 1px 2px grey;
+	height: 150px;
+	overflow: scroll;
+}
+#comment img[name="quote"] {
+    opacity: 0.2;
+    position:absolute;
+    right: 90px;
+}
+#comment img[name="delete_comment"] {
+    position:absolute;
+    right: 90px;
+}
+#comment img[name="delete_comment"]:hover {
+    cursor: pointer;
+}
+#comment #title {
+    margin-bottom: 20px;
+}
+#comment #title #header_left {
+    float:left;
+}
+#comment p[class='comment'] {
+    margin-right: 90px; 
+}
+/** 
+  ************* Abteilung *********
+**/
+#Abteilung #tab_title p {
+	text-align: center;	
+}
+#Abteilung #tab_title #title p {
+	font-weight: bold;	
+}
+i.icon-chevron-right{
+	position:absolute;
+	margin-left: -435px;
+	margin-top: 130px;
+	cursor: pointer;
+}
+i.icon-chevron-left{
+	position: absolute;
+	margin-left:-435px;
+	margin-top: 150px; 
+	cursor: pointer;
+}
+#Abteilung #Liste {
+	width: 400px;
+	box-shadow: 0px 0px 10px grey;
+	float: left;
+	margin: 15px;
+	margin-left: 80px;
+	height: 400px;
+	overflow: scroll;
+}
+#Abteilung #Betrifft {
+	margin: 15px;	
+	width: 400px;	
+	height: 400px;	
+	float:left;
+	box-shadow: 0px 0px 5px green;
+	overflow: scroll;
+}
+
+#Betrifft ol li {
+	list-style-type: none;
+}
+#Abteilung #Betrifft li, #Abteilung #Liste li{
+	margin: 8px;
+}
+#Liste ol li {
+	padding: 5px;
+}
+#Liste .ui-widget-content {
+	font-size: 16px;	
+	list-style-type: none;
+}
+#Liste .ui-draggable-dragging {
+	box-shadow: 0px 0px 2px green;
+}
+#Betrifft ol li {
+	border: 1px solid green;
+	padding: 5px;
+	text-align: right;
+}
+#Betrifft li i {
+	cursor: pointer;
+}
+#Abteilung button {
+	position: absolute;
+	top: 500px;
+	width: 60px;
+	font-size: 10px;
+}
+/**
+	**** Docs *****
+**/
+#docs {	
+	padding: 10px;
+}
+#docs #docs_header {
+	margin-bottom: 10px;
+	text-align: center;
+}
+#docs #files #file {
+	padding: 10px;
+	margin: 0px 10px;
+	height: 150px;
+	width: auto;
+	float: left;
+	border-radius: 5px;
+	box-shadow: 0px 0px 6px gray;
+}
+#docs #files #file i {
+	position:absolute;
+	color: red;
+}
+#docs #files #file img {
+	position: relative;
+	width: 80px;
+	height: 80px;
+	margin-left: 50%;
+}
+#docs #files #file p {
+	margin-top: 20px;	
+	font-size: 14px;
+}
+#docs #files #file p span {	
+	font-size: 20px;
+	color: #041747;
+}
+#docs #files {
+	margin: 40px 20px;
+}
+/** 
+  *** Upload ***
+**/
+#docs #upload {
+	padding: 20px;
+}
+#docs #upload input[name="file"] {
+	height: 40px;
+	color: #041747;
+}
+#docs #upload #form_docs input[type="submit"] {
+	position: absolute;
+	right: 30px;
+	height: 40px;
+}
+#docs #files #empty {
+	width: 400px; 
+	text-align: center;
+	margin: 20px auto;
+	font-size: 20px;
+	color: #041747;
+}
+#docs #files #empty img {
+	width: 128px;
+	height: 128px;
+	margin: 20px auto;
+}
+#docs #files #file i.icon-remove {
+	cursor: pointer; 
+}
+/**
+  * * BACK TO LIST 
+  ***/
+ a.back_to_list {
+	position: absolute;
+	z-index: 1;
+	left: 215px;
+	top: 230px;
+ }

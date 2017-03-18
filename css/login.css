@@ -1,0 +1,146 @@
+html {
+	/*background: #041747;*/
+	background: #87CEFA;
+	}
+body{
+	position: relative;
+	width: 1280px;
+	height: 1024px;
+	margin: auto;
+	background: white;	
+	margin-top: 20px;
+	border-radius: 15px;
+	box-shadow: 0px 0px 5px gray;
+}
+#error {
+	position:relative;
+	margin-left: auto;
+	margin-right: auto;
+	width: 350px;
+	color: red;	
+}
+#error_pw {
+	margin: 10px auto;
+}
+img.logo{
+	position: static;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 50px;
+	padding: 10px;
+	padding-top: 150px;
+	width: 850px;
+	height: 250px;	
+}
+#p{
+	color: #041747;
+	position: relative;
+	text-align: center;	
+	font-size: 24px;
+}
+#php{
+	color: red;
+	margin-right: auto;
+	margin-left: auto;
+	width: 200px;
+}
+#boxes{
+	margin-left: auto;
+	margin-right: auto;
+	width: 200px;
+}
+i.icon-question-sign{
+	position: absolute;	
+	top: 375px;
+	right: 200px;
+	cursor: help;
+}
+#forgotpw {
+	margin: 20px auto;
+	width: 500px;
+}
+#forgotpw input {
+	width: 400px;
+	margin-top: 10px;
+}
+#submit{
+	margin-left: auto;
+	margin-right: auto;
+	width: 250px;
+}
+.span2:focus{
+	background-color: #65A5D1;
+}
+#footer {
+	position: relative;
+	width: 1260px;		
+	text-align: center; 
+	top: 260px;
+	margin-left: auto;
+	margin-right: auto;
+	}
+
+/**
+  * ABOUT 
+  **/  
+  #show_hide_about {	
+	position: absolute;
+	right: 0px;
+	top: 0px;
+	height: 100%;
+	width: 70px;	
+	border-radius: 0px 15px 15px 0px;
+  }
+  #show_hide_about i {
+	position: relative;
+	margin-left: 5px;
+	top: 50%;
+	cursor: default;
+	opacity: 0.3;
+  }
+#about {
+	opacity: 0;
+	position: fixed;
+	z-index: 2;
+	top: 450px;
+	right: 0px;
+	width: 60px;
+	height: 200px;	
+	margin: 10px;
+	visibility: hidden;
+}
+#about_text {
+	position: fixed;
+	top: 465px;
+	left: 1750px;
+	width: 90px;
+	height: 120px;	
+}
+#p_one , #p_two, #p_three{	
+	font-family: "HelveticaNue Light";
+	font-style: normal;
+	color: #041747;	
+	position: fixed;	
+	cursor: default;
+}
+#p_one {
+	margin: 10px;
+	top: 465px;	
+	opacity: 0;
+} 
+#p_two {
+	top: 510px;
+	margin: 10px;
+	opacity: 0;
+}
+#p_three {
+	top: 555px;
+	margin: 10px;
+	opacity: 0;
+}
+#about img {	
+	margin: 5px;
+	width: 32px;
+	height: 32px;
+}

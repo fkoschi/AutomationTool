@@ -1,0 +1,102 @@
+#content img.background {
+	opacity: 0.07;
+	position: absolute;
+	right: 10px;
+	top: 220px;	
+	z-index: 0;
+	width: 512px;
+	height: 512px;
+}
+#success {
+	position:absolute;
+	top: 0px;
+	left: 550px;	
+	background-color: white;
+	color: green;
+	border-radius: 5px;
+	box-shadow: 0px 0px 15px green;
+	width: 250px;
+	height: 50px;
+}
+#success p {
+	font-size: 16px;
+	margin: 15px;
+}
+#success_box{
+	position:fixed;
+	z-index: 1;
+}
+a {
+	cursor: pointer;
+}
+/**
+  * GENDER IMAGE
+  **/
+img[name="gender"] {
+	width: 16px;
+	height: 16px;
+}
+#content_header .input-prepend {
+	margin-left: 775px;
+	position: relative;
+}
+#content_header .input-prepend input {
+	height: 30px;
+}
+#content_header p.header {
+	font-size: 20px;
+}
+p.counter_user {
+	font-size: 12px;
+	width: 100px;
+	margin-top: -25px;
+}
+#content_header {
+	margin-bottom: 5px !important;
+}
+thead th {
+	font-size: 16px;
+	height: 20px;
+	color: #1C86EE;
+	}
+/**
+  * TABLE 
+  **/
+table {
+	margin: 5px auto;
+	}
+thead tr th {
+	height: 40px;
+}
+tbody tr td {
+	height: 30px;
+	position: relative;
+	z-index: 1;
+}	
+th.gender {
+	width: 26px;
+}
+th.one{
+	width: 30px;
+}
+th.two{
+	width: 100px;
+	}
+th.three{
+	width: 100px;
+	}
+th.four{
+	width: 140px;
+}
+th.five {
+	width: 220px;
+	}
+th.six {
+	width: 250px;
+}
+th.seven {
+	width: 70px;
+}
+th.eight {
+	width: 70px;
+	}

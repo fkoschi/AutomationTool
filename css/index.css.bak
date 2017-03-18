@@ -1,0 +1,118 @@
+html {
+	background-color: #041747;
+}
+body {
+	width: 1280px;
+	height: 1024px;
+	background-color: white;	
+	margin: auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+h1 {
+	text-align: center;
+	margin-bottom: 40px;
+	font-size: 28px;
+}
+a.btn{
+	position: fixed;
+	top: 215px;
+	right: 60px;
+	color: red;
+}
+#logo {
+	width: 50%;
+	height: 20%;
+	position: relative;
+	margin: 0px;
+	padding: 10px;
+}
+a.btn:hover, a.btn:active{
+	color: red;
+}
+li a {	
+	text-decoration: none;
+}
+#navi li a:hover, #navi li:hover {
+	text-decoration: none;
+	color: #3381FF;				
+}
+#navi li:focus, #navi li:active {
+	color: #3381FF;
+	}
+
+#navi {
+	margin-top: 10px;
+	position: relative;
+	width: 190px;
+	height: 500px;
+	margin-left: 5px;	
+	padding: 5px;
+	color: #041747;	
+	/* background-color: #D1EEEE; */
+}
+#navi li{
+	list-style: none;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	text-decoration: none;
+	text-align: left;
+	}
+#navi i {
+	margin-left: 20px;
+}
+#navi a{
+	padding-left: 5px;
+	color: #041747;	
+	font-size: 18px;
+}
+#content {
+	width: 1000px;
+	height: 750px;
+	background-color: #F5F8FC;
+	position: absolute;
+	border: 1px solid #041747;
+	padding: 5px;
+	left: 270px;
+	top: 255px;	
+}
+#calender {
+	position: absolute; 
+	right: 15px;
+	
+	}
+
+#title{
+	text-align: center;
+	padding-top: 15px;
+	padding-bottom: 5px;
+}
+#content p.p_info {
+	padding-top: 10px;
+	padding-bottom: 40px;
+	margin: auto;
+	text-align: center;
+}
+/* --------- User Logo -------- */
+#user_logo {
+	position: absolute;
+	width: 140px;
+	height: 140px;
+	top: 145px;
+	right: 110px;
+	}
+
+#footer {
+	position: relative;
+	width: 1260px;		
+	text-align: center; 
+	top: 260px;
+	margin-left: auto;
+	margin-right: auto;
+	}
+#time {
+	position: absolute;
+	top: 25px;
+	right: 65px;
+}
+

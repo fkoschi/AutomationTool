@@ -1,0 +1,118 @@
+img.background_pic {
+	opacity: 0.2;
+}
+/**
+  * CHOOSE TEMPLATE
+  **/
+#choose_template {
+	position: absolute;
+	z-index: 1;
+	top: 150px;
+	left: 50px;
+}
+/**
+  * SELECT
+  **/
+#select {
+	position: absolute;
+	left: 70%;
+	top: 195px;	
+}
+
+/**
+  * LOCATION 
+  **/
+#location {
+	position: absolute;
+	left: 150px;
+	top: 200px;	
+	z-index: 1;
+}
+/**
+  * INPUT DATEINAME
+  **/
+input[name="Dateiname"] {
+	height: 35px;
+	width: 360px;
+}
+/**
+  * CONTENT HEADER P
+  **/
+#content #header p {
+	font-size: 12px;
+	line-height: 1.5em;
+	margin: 5px;
+}
+/**
+  * HEADLINE H1 
+  **/
+#header h1 {
+	margin-top: 15px;
+	margin-left: -700px;
+}
+/**
+  * ACRONOYM 
+  **/
+acronym {
+	text-decoration: none;
+	list-style-type: none;
+}
+/** 
+  *** footer ***
+**/
+#footer {
+	position: absolute;
+	margin-top: 745px;
+}
+/** 
+  *** Code Mirror ***
+**/
+.CodeMirror {
+	margin: 20px auto;
+	z-index: 2;
+}
+.CodeMirror-scroll {
+	z-index: 2;
+}
+/** 
+  *** button ***
+**/
+#button {
+	width: 900px;
+	text-align: center;
+	margin: 0px auto;
+}
+/** 
+  *** Content ***
+**/
+#header {
+	text-align: center;
+}
+/** 
+  *** Success Box
+**/
+#success_box {
+	position: fixed;
+	z-index: 1;
+}
+#success_box #success {	
+	height: auto;
+	padding: 10px;
+	width: 150px;
+	margin-left: 600px;	
+	background-color: white;
+	text-align: center;
+	border-radius: 5px;
+	box-shadow: 0px 0px 10px green;
+}
+#success_box #error {
+	position: absolute;
+	height: auto;
+	padding: 10px;
+	width: 150px;	
+	margin-left: 600px;	
+	background-color: white;
+	text-align: center;
+	border-radius: 5px;
+	box-shadow: 0px 0px 10px red;
+}

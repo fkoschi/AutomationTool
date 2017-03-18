@@ -1,0 +1,75 @@
+0;TaskName;Next Run Time;Status
+1;\11_ScanKontrolle_Export_to_Excel_pro_Day;23.7.2014 19:15:00;Ready
+2;\9_ScanKontrolle_WV_Ueberschreiben_HP_ES;28.7.2014 23:10:00;Ready
+3;\Aktanf_all_start_in;Disabled;Unknown
+4;\aktivnet_export_fi;26.7.2014 0:05:00;Ready
+5;\aktiv_export_update_Mo_Do;24.7.2014 1:30:00;Ready
+6;\aktiv_export_update_Weekend;27.7.2014 22:00:00;Ready
+7;\AUTOMATIC_LINDORFF_002;28.7.2014 2:00:00;Ready
+8;\Auto_Dok_ins_DMS;Disabled;Unknown
+9;\AUTO_INX25_am_2tem_Monatlich;N/A;Could not start
+10;\AUTO_Wiedervorlage_VW_P;Disabled;Unknown
+11;\AUTO_Wiedervorlage_VW_SI420_10te;Disabled;Unknown
+12;\AUTO_Wiedervorlage_VW_SI420_20te;Disabled;Unknown
+13;\Backup_daily_Access_Code;24.7.2014 0:10:00;Ready
+14;\bertrandt_aktanf_in_1;Disabled;Unknown
+15;\bertrandt_aktanf_in_2;Disabled;Unknown
+16;\bertrandt_aktanf_nicht_zurueck;Disabled;Unknown
+17;\bertrandt_aktanf_out_1;Disabled;Unknown
+18;\bertrandt_aktanf_out_2;Disabled;Unknown
+19;\Bertrandt_Bereinigung_Scanning;23.7.2014 21:00:00;Ready
+20;\bertrandt_daily_in;24.7.2014 10:15:00;Ready
+21;\bertrandt_daily_out;23.7.2014 13:30:00;Ready
+22;\Bertrandt_Start_DMS;23.7.2014 20:15:00;Ready
+23;\Bertrandt_WN990_WN991_Anzahl_t„glich;23.7.2014 15:00:00;Ready
+24;\Bertrandt_WN990_WN991_Skript_AktenScanning;23.7.2014 20:35:00;Ready
+25;\CIC_DAILY_VORAB_ESSEN;24.7.2014 4:45:00;Ready
+26;\CIC_EXPORT_DE_WrongNumbers;24.7.2014 2:45:00;Ready
+27;\CIC_Export_to_Excel;Disabled;Unknown
+28;\CIC_Export_to_Excel_Version_2013;24.7.2014 5:30:00;Ready
+29;\CIC_Handle_Results;23.7.2014 23:00:00;Ready
+30;\CIC_IKA_Export;Disabled;Unknown
+31;\Copy_DB_locally;Disabled;Unknown
+32;\DB2011_Segmentierung;Disabled;Unknown
+33;\Deltavista_Einmeldungen;Disabled;Unknown
+34;\export_akte_fcap10_start;23.7.2014 20:10:00;Ready
+35;\Export_EUROPRO_TO_Excel;Disabled;Unknown
+36;\EXPORT_PROGRESS_DAILY;Disabled;Unknown
+37;\EXPORT_PROGRESS_WEEKLY;Disabled;Unknown
+38;\Export_REGIS_TO_Excel;25.7.2014 13:30:00;Ready
+39;\FINANCE_001_002;Disabled;Unknown
+40;\FINANCE_IN001_IN003_IN011;24.7.2014 4:30:00;Ready
+41;\follow_up_event_NL001;Disabled;Unknown
+42;\follow_up_event_NL002;24.7.2014 1:00:00;Ready
+43;\follow_up_event_NL003;24.7.2014 3:10:00;Ready
+44;\IKA_TRAINNING_stop_start;Disabled;Unknown
+45;\IKA_TRAINNING_stop_start_FI;Disabled;Unknown
+46;\kundenportal_export;23.7.2014 21:00:00;Ready
+47;\Kundenportal_Webaktenanlage_abholen;23.7.2014 20:30:00;Ready
+48;\monthly_FORDERUNGSAUSWERTUNG;Disabled;Unknown
+49;\monthly_OP_LISTEN;Disabled;Unknown
+50;\robocopy_genocash;Disabled;Unknown
+51;\robocopy_sFirm32;Disabled;Unknown
+52;\Santander_Generate_IBAN;23.7.2014 22:15:00;Ready
+53;\SAP_AUTOMATIC_Di_bis_So;24.7.2014 0:45:00;Ready
+54;\SGD_Ausbuchungsliste;1.8.2014 6:00:00;Ready
+55;\Skript_UN036_daily_Kontrolle;Disabled;Unknown
+56;\Skript_UN036_daily_Kontrolle_after_update;Disabled;Unknown
+57;\Space_FCAP09;24.7.2014 1:00:00;Ready
+58;\Start_Aktenscanning_Com_Fin;23.7.2014 23:01:00;Ready
+59;\Start_Aktenscanning_Lokal;23.7.2014 12:02:00;Ready
+60;\Start_monthly_FORDERUNGSAUSWERTUNG;1.8.2014 0:10:00;Ready
+61;\Start_PostScanning_Ordner_Create;24.7.2014 7:00:00;Ready
+62;\Start_ScanKontrolle_AZ_Falsch;23.7.2014 18:55:00;Ready
+63;\Start_ScanKontrolle_in_Abgeschlossene_Az;23.7.2014 22:20:00;Ready
+64;\Start_ScanKontrolle_nach_WV_Ueberschreiben;23.7.2014 22:30:00;Ready
+65;\WV_BX;24.7.2014 0:15:00;Ready
+66;\WV_GI099_monatlich;Disabled;Unknown
+67;\WV_GI099_taeglich;23.7.2014 20:30:00;Ready
+68;\WV_P;23.7.2014 19:15:00;Ready
+69;\WV_SELEC_BI;24.7.2014 2:55:00;Ready
+70;\WV_SI438_woechentlich;Disabled;Unknown
+71;\WV_SI467_woechentlich;Disabled;Unknown
+72;\WV_T1;23.7.2014 18:00:00;Ready
+73;\WV_T2;23.7.2014 20:00:00;Ready
+74;\WV_Vorlauf_WVGesamt_Mo_bis_FR;23.7.2014 13:31:00;Ready

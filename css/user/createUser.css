@@ -1,0 +1,154 @@
+/**
+  * GENDER 
+  **/
+#gender {
+	position: relative;
+	margin-left: 80px;
+	margin-bottom: 15px;
+	margin-top: -25px;
+}
+/**
+  * GENDER IMG UPDATE
+  **/
+img[name="gender_update"] {
+	position: relative;
+	margin-left: 260px;
+	margin-top: 40px;
+}
+#gender span {
+	margin-left: 40px;
+}
+#gender img {
+	width: 48px;
+	height: 48px;
+}
+#success {
+	position:absolute;
+	top: 0px;
+	left: 550px;	
+	background-color: white;
+	color: green;
+	border-radius: 5px;
+	box-shadow: 0px 0px 15px green;
+	width: 250px;
+	height: 50px;
+}
+#success p {
+	font-size: 16px;
+	margin: 15px;
+}
+#success_box{
+	position:fixed;
+	z-index: 1;
+}
+
+#links {
+    position: relative;
+    width: 400px;
+    height: 400px;
+    margin-left: 90px;
+    box-shadow: 0px 0px 15px gray;
+}
+#rechts {
+    position: relative;
+    margin-left:500px;
+    margin-top: -400px;
+    width: 400px;
+    height: 400px;    
+    box-shadow: 0px 0px 15px gray;
+}
+
+p[class="box_info"]{
+	padding: 15px;
+	color: #041747;
+	font-size: 22px;
+}
+#rechte {
+	margin-top: 30px;
+}
+#rechte p{
+    margin-left: 40px; 
+	margin-bottom: 15px;
+}
+#rechte input{
+    margin-right: 10px;
+}
+#rechts img {
+    opacity: 0.1;
+    margin-left:250px;
+    width: 128px;
+    height:128px;
+}
+.input-prepend , select {
+    position:relative;
+    margin-left: 40px;
+    margin-bottom: 20px;
+}
+.input-prepend input {
+	height: 30px;
+}
+input[name="Speichern"] {
+	position: relative;
+	margin-top: 10px;
+	margin-left: 450px;
+	height: 30px;
+}
+input[type="text"] , select{
+    width: 250px;
+}
+#content_header img {
+    height: 42px;
+    width: 42px;
+}
+#content_header p {
+    font-size: 20px;	
+}
+#content_header p[class="info"] {
+	padding: 5px;
+	font-size: 14px;	
+}
+input[name="setRechte"]{
+	margin-left: 290px;
+	margin-top: 10px;
+}
+input[name="setInfos"]{
+	margin-top: 10px;
+	margin-left: 90px;
+}
+/** 
+  * INPUT EMAIL
+  **/
+input[name="Email"] {
+	width: 250px;
+}
+/** 
+  * * UL USER GROUPS
+  **/
+ select[name="group"] {
+	margin-top: 30px;
+ }
+ select[name="group"] option {
+	padding: 5px;
+ }
+ #rechts ul.user_groups {
+	margin-top: 0px;	
+	margin-left: 35px;
+ }
+#rechts ul.user_groups li{
+	list-style-type: none;
+	padding: 5px 10px 5px;
+	border-radius: 2px;
+	box-shadow: 0px 0px 1px 0px gray;	
+	display: inline;		
+}
+#rechts ul.user_groups a {
+	color: black;
+	font-size: 14px;
+}
+#rechts ul.user_groups li.active {			
+	color: #007AC8;
+	background: #FFFFFF;
+}
+ul.user_groups p.option {
+	margin-top: 80px;
+}

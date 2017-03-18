@@ -1,0 +1,6 @@
+/**
+  * Navigationsleiste anpassen
+  **/
+#navi ul a.user , #navi ul a.bib{
+	display: none;
+}

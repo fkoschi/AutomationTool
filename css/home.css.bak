@@ -1,0 +1,62 @@
+#content .icon-desktop, #content .icon-user, #content .icon-book, #content .icon-code{
+	color: #3381FF;
+	}
+#title i {
+	font-size: 48px;
+}
+#server, #bib {
+	width: 300px;
+	position: relative; 
+	margin-left: 120px;
+	
+}	
+#server h1, #bib h1 , #user h1, #monitoring h1{
+	margin-bottom: 0;
+	padding-bottom: 5px;
+	text-align: left;
+	padding-left: 6px;
+}
+#server hr, #bib hr, #user hr , #monitoring hr{
+	margin-top: 0;
+	margin-left: 6px;
+	margin-right: 6px;
+}
+#server_1 {
+	float:left;
+	}
+#server p, #bib p, #user p , #monitoring p{
+	margin-left: 0;
+	padding: 5px;
+	}
+#server i, #bib i, #bib b, #server b, #user b, #user i, #monitoring i, #monitoring b {
+	margin-left: 40px;	
+}
+#content i.icon-chevron-right {
+	margin-left: 0px;
+	}
+#bib {
+	margin-top: 30px;
+}
+#user {	
+	width: 300px;
+	position: absolute;
+	top: 180px;
+	right: 120px;
+	}
+#monitoring {	
+	width: 300px;
+	position: absolute; 
+	top: 440px;
+	right: 120px;
+}
+#content a {
+	text-decoration:none;
+}
+#content a:hover ,#content i:hover{
+	color: #041747;
+	}
+#content .hr_title {
+	color: black;
+	margin-right: 20px;	
+	margin-left: 20px;
+}

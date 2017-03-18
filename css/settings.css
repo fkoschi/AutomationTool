@@ -1,0 +1,116 @@
+/**
+  ** Background **
+**/
+.settings_pic {
+	opacity: 0.2;
+}
+/**
+  * BUG
+  **/
+#bug {
+	position: absolute;
+	left: 60%;
+	top: 220px;
+}
+/**
+  ** Content Header **
+**/
+#content_header h1 {
+	margin: 15px 0px;
+}
+#content_header p {
+	text-align: center;
+	margin: 50px auto;
+}
+/**
+  ** Settings **
+*/
+#content #settings {
+	margin: 15px;
+	padding: 15px;
+}
+#content #settings ul {
+	margin-left: 200px;
+}
+#content #settings li {	
+	margin-bottom: 80px;
+}
+#content #settings #li_box {
+	margin-top: 20px;
+	margin-left: 100px;
+	padding: 10px;
+	width: 150px;
+	height: 25px;
+	border-radius: 5px;			
+}
+#content #settings #li_box i.icon-save {
+	color: #041747;
+}
+#content #settings #li_box a.btn {
+	color: #041747;
+	position: absolute; 
+	right: 370px;
+	top: 462px;
+
+}
+#content #settings #li_box input {
+	height: 30px;
+}
+/**
+  **** SPAN ****
+**/
+span.melden {
+	text-decoration: underline;
+	color: red;
+	cursor: pointer;
+}
+span.email {
+	display: none;
+	position: absolute;
+	margin-top: 15px;
+	font-size: 12px;
+}
+/** 
+  **** Error ****
+**/
+#error {
+	color: red;
+	width: 250px;
+}
+#success {
+	color: green;
+	width: 250px;
+}
+#not_found {
+	color: red; 
+	margin-bottom: 10px;
+	width: 250px;
+}
+#footer {
+	position: absolute;
+	top: 1000px;
+}
+/**
+  * Anzeige für die Stärke des Passworts
+  **/
+meter { 
+	width: 205px;
+} 
+/*
+ * INFO über Passwortstärke
+ **/
+#info {	
+	width: 205px;
+	font-size: 12px;
+	text-align: center;
+}
+/** 
+  * User Icon 
+  **/
+ #user_icon {
+ 	width: 700px;
+ 	height: 120px;
+ 	
+ 	margin: 180px auto 0px;
+ 	text-align: center;
+ }

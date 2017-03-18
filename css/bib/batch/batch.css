@@ -1,0 +1,245 @@
+/** 
+  * Hyperlink FILE 
+  **/
+a.file {
+	
+}
+/** 
+  ***** Success ******
+**/
+#success {
+	position:absolute;
+	top: 0px;
+	left: 550px;	
+	background-color: white;
+	color: green;
+	border-radius: 5px;
+	box-shadow: 0px 0px 15px green;
+	width: 250px;
+	height: 50px;
+}
+#success p {
+	font-size: 16px;
+	margin: 15px;
+	text-align: center;
+}
+#success_box{
+	position:fixed;
+	z-index: 1;
+}
+input[name="Name"] {
+	height: 30px !important;
+}
+/**
+  ***** Hintergrund ******
+**/
+.book_pic{
+	opacity:0.1;
+	filter:alpha(opacity=5);
+}
+#background-pic {
+	position: absolute; 
+	left: -15px;
+	bottom: 30px;
+	width: 300px;
+	height: 250px;
+}
+
+/**
+  ****** Content ******
+**/
+#content #content_header {
+	margin-top: 15px;
+	text-align: center;
+}
+#content #content_header p {
+	font-size: 24px;
+}
+#content #content_header p.info {
+	margin-top: 5px;
+	font-size: 16px;
+}
+#content #content_header i.icon-plus {
+	position: absolute; 
+	top: 50px;
+	left: 50px;	
+	cursor: pointer;
+}
+#content #content_header img {
+	width: 64px;
+	height: 64px;
+}
+#content #content_content {
+	width: 1000px;
+	height: auto;	
+	margin: 20px auto;
+	padding: 20px;
+}
+#content input.span2 {
+	height: 30px;
+}
+/** 
+  ***** Content Box ******
+**/
+#content #content_content #content_box{
+	position: relative;
+	float: left;
+	width: 200px;
+	/* height: 170px;*/
+	height: auto;
+	box-shadow: 0px 0px 5px grey;
+	border-radius: 5px;
+	padding: 10px;
+	margin: 10px;	
+}
+#content #content_content #content_box img {
+	position: absolute; 
+	margin-top: -100px;
+	margin-left: 70px;
+	opacity: 0.03;
+	width: 124px;
+	height: 124px;
+}
+#remove-icon {
+	margin: 10px 10px;
+}
+#content #content_content a {
+	color:black;
+}
+#content #content_content a:hover #content_box {
+	box-shadow: 0px 0px 10px #0178C6;
+}
+#content #content_content #content_box #info {
+	text-align: right;
+	font-size: 16px;
+}
+
+#content #content_content #content_box #info p {
+	margin-top: 15px;
+	font-size: 12px;
+	text-align: left;
+}
+#content #content_content #content_box #title p {
+	text-align: center;
+	font-size: 20px;
+	margin-bottom: 25px;
+	margin-top: 10px;
+	color: #0178C6;
+}
+/**
+  * EXPORT 
+  **/
+#export {
+	position: absolute;
+	left: 90%;
+	top: 20px;
+	cursor: pointer;
+}
+/** 
+  ******* Batch Page ********
+**/
+#content #title #right_title {
+	padding: 10px;
+	font-size:16px;
+}
+#left_title, #right_title {
+	position: relative;
+	width: 400px;
+	height: 50px;
+	text-align: center;
+}
+#right_title {
+	margin-left: 400px;
+	margin-top: -50px;
+}
+#description{
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 20px;
+	position: relative;	
+	overflow: auto;
+	width: 900px;	
+	height: auto;	
+	padding: 30px;
+}
+#description #result {
+	padding: 20px;
+}
+#textarea {
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	width: 900px;
+	height: 400px;
+}
+
+#description img {
+	position: absolute;
+	opacity: 0.1;
+	right: 160px;	
+}
+textarea {
+	box-shadow: 0px 0px 5px gray;
+	width: 900px;
+	height: 400px;
+	text-align: left;
+}
+#content h1 {
+	margin-bottom: 10px !important;
+	font-size: 24px;
+	color: #0178C6;
+}
+/**
+  ******* Buttons *******
+**/
+button[name="anzeigen"] {
+	position: absolute;
+	margin-top: -360px;
+	margin-left: 400px;
+}
+button.setEditor {
+	position: absolute;
+	right: 80px;
+	top: 310px;
+	border-radius: 5px;
+	border: 1px solid green;
+	color: green;	
+}
+#content i.icon-remove-sign {
+	cursor: pointer;
+	color: red;
+	z-index: 2;
+	position: relative;
+	top: -5px;
+	left: -5px;
+}
+/** 
+  ****** Content Create ******
+**/
+#content #create {
+	padding: 25px;
+}
+#content #create p.create_info {
+	text-align: center;	
+	margin-bottom: 10px;
+}
+#content #create #Name {
+	width: 300px;
+	float:left;
+}
+#content #create #Pfad input{
+	width: 600px;
+}
+#content #create #Name p , #content #create #Pfad p {
+	font-size: 14px;
+}
+#content #create textarea {
+	width: 800px;
+	height: 350px;
+}
+#content #create #description {
+	margin-top: 45px;
+}
+#content #create button {
+	margin-left: 850px;
+}

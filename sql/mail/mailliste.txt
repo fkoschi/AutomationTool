@@ -1,0 +1,71 @@
+1;DL_DE_3PC;DL_DE_3PC@lindorff.com
+2;DL_DE_Abteilungsleiter;DL_DE_Abteilungsleiter@lindorff.com
+3;DL_DE_Alle_Essen;DL_DE_Alle_Essen@lindorff.com
+4;DL_DE_Alle_Heppenheim;DL_DE_Alle_Heppenheim@lindorff.com
+5;DL_DE_Alle_SB;DL_DE_Alle_SB@lindorff.com
+6;DL_DE_Alle_Standorte;DL_DE_Alle_Standorte@lindorff.com
+7;DL_DE_Arena_Essen;DL_DE_Arena_Essen@lindorff.com
+8;DL_DE_Arena_Germany;DL_DE_Arena_Germany@lindorff.com
+9;DL_DE_Arena_Heppenheim; DL_DE_Arena_Heppenheim@lindorff.com
+10;DL_DE_Arena_Saarbrücken; DL_DE_Arena_Saarbrücken@lindorff.com
+11;DL_DE_Arena1; DL_DE_Arena1@lindorff.com
+12;DL_DE_Arrangementteam; DL_DE_Arrangementteam@lindorff.com
+13;DL_DE_Auftraege; DL_DE_Auftraege@lindorff.com
+14;DL_DE_Auftragserfassung; DL_DE_Auftragserfassung@lindorff.com
+15;DL_DE_BackOffice; DL_DE_BackOffice@lindorff.com
+16;DL_DE_Backoffice_SB; DL_DE_Backoffice_SB@lindorff.com
+17;DL_DE_BigTickets; DL_DE_BigTickets@lindorff.com
+18;DL_DE_BI-Operations; DL_DE_BI-Operations@lindorff.com
+19;DL_DE_BMC; DL_DE_BMC@lindorff.com
+20;DL_DE_Callcenter; DL_DE_Callcenter@lindorff.com
+21;DL_DE_Callcenter_SB; DL_DE_Callcenter_SB@lindorff.com
+22;DL_DE_CAPIT; DL_DE_CAPIT@lindorff.com
+23;DL_DE_Coface-partnership; DL_DE_Coface-partnership@lindorff.com
+24;DL_DE_Compliance; DL_DE_Compliance@lindorff.com
+25;DL_DE_Datenschutz; DL_DE_Datenschutz@lindorff.com
+26;DL_DE_EDV; DL_DE_EDV@lindorff.com
+27;DL_DE_EDV_TEST; DL_DE_EDV_TEST@lindorff.com
+28;DL_DE_EMA; DL_DE_EMA@lindorff.com
+29;DL_DE_Essen_Contact_Center; DL_DE_Essen_Contact_Center@lindorff.com 
+30;DL_DE_Falleingang; DL_DE_Falleingang@lindorff.com
+31;DL_DE_Fibu; DL_DE_Fibu@lindorff.com
+32;DL_DE_FINANCE; DL_DE_FINANCE@lindorff.com
+33;DL_DE_FitfGrowth_Core_Team; DL_DE_FitfGrowth_Core_Team@lindorff.com
+34;DL_DE_FKE; DL_DE_FKE@lindorff.com
+35;DL_DE_FKOP; DL_DE_FKOP@lindorff.com
+36;DL_DE_FoBu; DL_DE_FoBu@lindorff.com
+37;DL_DE_FOBU_SB; DL_DE_FOBU_SB@lindorff.com
+38;DL_DE_Front Office; DL_DE_Front Office@lindorff.com
+39;DL_DE_GRL; DL_DE_GRL@lindorff.com
+40;DL_DE_Hamlet; DL_DE_Hamlet@lindorff.com
+41;DL_DE_Hamlet_Core_Team; DL_DE_Hamlet_Core_Team@lindorff.com
+42;DL_DE_Hamlet_Executive_Team; DL_DE_Hamlet_Executive_Team@lindorff.com
+43;DL_DE_Inkasso; DL_DE_Inkasso@lindorff.com
+44;DL_DE_Innovation; DL_DE_Innovation@lindorff.com
+45;DL_DE_Inso_Essen; DL_DE_Inso_Essen@lindorff.com
+46;DL_DE_IT_Infra; DL_DE_IT_Infra@lindorff.com
+47;DL_DE_juristische_SB; DL_DE_juristische_SB@lindorff.com
+48;DL_DE_Kampagnenteam; DL_DE_Kampagnenteam@lindorff.com
+49;DL_DE_KlientenbetreuungHP_intern; DL_DE_KlientenbetreuungHP_intern@lindorff.com
+50;DL_DE_LC49; DL_DE_LC49@lindorff.com
+51;DL_DE_LC99; DL_DE_LC99@lindorff.com
+52;DL_DE_LegalCollection; DL_DE_LegalCollection@lindorff.com
+53;DL_DE_LGMB; DL_DE_LGMB@lindorff.com
+54;DL_DE_mobilcom_spk; DL_DE_mobilcom_spk@lindorff.com
+55;DL_DE_mobilcom-debitel; DL_DE_mobilcom-debitel@lindorff.com
+56;DL_DE_nosend_extern; DL_DE_nosend_extern@lindorff.com
+57;DL_DE_OPS; DL_DE_OPS@lindorff.com
+58;DL_DE_OSM; DL_DE_OSM@lindorff.com
+59;DL_DE_Personalabteilung;DL_DE_Personalabteilung@lindorff.com 
+60;DL_DE_pf-no-extern-mail; DL_DE_pf-no-extern-mail@lindorff.com
+61;DL_DE_Project-Target; DL_DE_Project-Target@lindorff.com
+62;DL_DE_Rechtsabteilung; DL_DE_Rechtsabteilung@lindorff.com
+63;DL_DE_Reporting; DL_DE_Reporting@lindorff.com
+64;DL_DE_Sachbearbeitung_SB; DL_DE_Sachbearbeitung_SB@lindorff.com
+65;DL_DE_Scanning; DL_DE_Scanning@lindorff.com
+66;DL_DE_Support; DL_DE_Support@lindorff.com
+67;DL_DE_Teamleiter; DL_DE_Teamleiter@lindorff.com
+68;DL_DE_Vertrieb; DL_DE_Vertrieb@lindorff.com
+69;DL_DE_Zentrale; DL_DE_Zentrale@lindorff.com
+70;DL_DE_Zentraledienste; DL_DE_Zentraledienste@lindorff.com
+71;DL_DE_ZV_SB; DL_DE_ZV_SB@lindorff.com

@@ -1,0 +1,20 @@
+0;TaskName;Next Run Time;Status
+1;\acc_sant_export_2;23.7.2014 20:02:00;Ready
+2;\AutoAktMonitoreSB;24.7.2014 4:00:00;Ready
+3;\backup_progress_hw;Disabled;Unknown
+4;\copy_db_FCAP09N_to_FCAP17;N/A;Ready
+5;\delete_santander_2;23.7.2014 14:00:00;Ready
+6;\ham_kop;Disabled;Unknown
+7;\inventurauswertung;Disabled;Unknown
+8;\Inventur_Auswertung;28.7.2014 21:00:00;Ready
+9;\PELI_Druckjobs_verschieben;Disabled;Unknown
+10;\sant_export_2;23.7.2014 23:00:00;Ready
+11;\sant_export_LEGAL;24.7.2014 9:35:00;Ready
+12;\sant_foko_2;24.7.2014 9:00:00;Ready
+13;\sant_foko_LEGAL;24.7.2014 9:25:00;Ready
+14;\Space_FCAP17;Disabled;Unknown
+15;\Transfer_1_2140;Disabled;Unknown
+16;\Transfer_3_0430;Disabled;Unknown
+17;\von_Santander_2;24.7.2014 8:45:00;Ready
+18;\von_Satander_LEGAL;24.7.2014 9:15:00;Ready
+19;\Wivo;29.7.2014 10:30:00;Could not start

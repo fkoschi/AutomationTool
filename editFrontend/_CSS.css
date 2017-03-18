@@ -1,0 +1,11 @@
+
+/** 
+  * USER LOGO 
+  **/
+#user_logo {
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	top: 115px;
+	right: 100px;
+}

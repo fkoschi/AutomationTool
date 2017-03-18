@@ -1,0 +1,114 @@
+/**
+  * * * * * * * * * * * 
+  * Background-Picture
+  *
+  */
+img[class="autowv_pic"]{
+    margin-left: 20px;
+    opacity: 0.2;
+}
+p[name="header"] {
+    text-align: center;
+    font-size:  20px;
+}
+/** 
+  * INFOBOX 
+  **/ 
+#infobox {
+	width: 300px;
+	height: auto;
+	font-size: 18px;
+	padding: 10px;
+	position: absolute;
+	margin-left: 400px;
+	z-index: 2;
+	border-radius: 5px;
+	background: white;
+	box-shadow: 0px 0px 5px red;
+}
+#infobox i.icon-level-up {
+	position: absolute;
+  cursor: pointer;
+	right: 5px;
+	bottom: 5px;
+}
+/** 
+  * * * * * * * * * * * 
+  *     CONTENT
+  *
+  */
+  
+  /* background: #FA7878; */
+  
+#content input {
+    height: 27px !important;    
+}
+#autowv, #ausschluss, #von_bis, #Anschreiben, #mandantengrenzen{
+    margin:10px;
+	padding:10px;
+	box-shadow: 0px 1px 2px grey;
+}
+input[name="MandantNrVon"], input[name="MandantNrBis"] {
+    text-align: center;
+}
+#mandant_von,#mandant_bis {
+    width: 435px;
+    height: 80px;
+}
+#mandantengrenzen {
+    margin-bottom: 20px;
+}
+#mandant_von , #mandant_bis {
+    padding: 5px;
+    margin-top: 15px;   
+}
+#mandant_bis {
+    margin-top: -90px;
+    margin-left: 440px;
+}
+#content #connection, #content #header_img {
+    text-align: center;
+}
+#content #header_img img{
+    width: 36px;
+    height: 36px;
+}
+#content p[class="ausschluss"] input {
+    width: 900px;
+}
+#connection input{
+    width: 200px;
+}
+input[id="datepicker_von"], input[id="datepicker_bis"], input[id="datepicker_anschreiben"]{
+    text-align:center;
+} 
+p[name="wvvorgang"] {
+    text-align: center;
+    margin: 20px;
+}
+p[class="bsp"] {
+    text-align: center;
+    font-style: italic;
+    font-size: 12px;
+}
+#autowv #infos_row_one #left, #autowv #infos_row_one #right {
+    position: relative;
+    padding: 5px;
+    width: 400px;
+    height: 90px;
+}
+#autowv #infos_row_one #right {
+    margin-left: 450px;
+    margin-top: -100px;
+}
+#druckerspooler {
+    text-align:center;
+}
+input[type="submit"] {
+    position: relative;
+    margin-left: 820px;
+}
+input[name="MaxAnzahl_checkbox"]{
+    position:relative;
+    margin-left: 325px;
+}

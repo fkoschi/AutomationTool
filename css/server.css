@@ -1,0 +1,191 @@
+#content {
+	overflow: hidden;
+}
+/** 
+  * HEADER PICTURE 
+  **/
+.h1_pic {
+	width: 48px;
+	height: 48px;
+	float: left;
+	margin-right: 5px;
+	margin-left: 10px;
+	}
+/** 
+  * INPUT SUCHE 
+  **/
+input[name="Suche1"] {
+	height: 30px;
+}
+/**
+  * HYPERLINK
+  **/
+td a {
+	font-weight: bold;
+    font-size: 14px;
+	color: #041747;
+}
+	
+a:hover {
+	text-decoration: none;
+	color: #3381FF;	
+} 
+i:hover {
+	cursor: pointer;
+}
+/**
+  * HEADLINE
+  **/
+#content h1 {
+	width: 500px;	
+	text-align: left;
+	margin: 10px;
+	margin-bottom: 5px;
+}
+/** 
+  * PAGING 
+  **/
+#paging {
+	position: absolute;
+	width: auto;
+	margin: 550px 350px;
+	z-index: 2;
+}
+#paging a {	
+	box-shadow: 0px 0px 1px grey;
+	margin: 5px;
+	border-radius: 10px;
+	padding: 2px 5px;
+}
+#paging a.active {
+	background: #041747;
+}
+#error {
+	position: absolute;
+	text-align: center;
+	left: 300px;
+}
+/** 
+  * CONTENT HEADER
+  **/
+#content_header h4 {
+	font-size: 32px;
+	margin-top: 10px;
+	padding-top: 15px;
+	padding-left: 5px;
+}
+#content_header .input-prepend {
+	position: absolute;
+	top: 70px;
+	left: 775px;		
+	}
+/**
+  * INPUT PREPEND
+  **/
+.input-prepend input {
+	height: 30px;
+}
+#content_header img, #content_header h4 {
+    margin-left: 400px;
+}
+/** 
+  * NO RESULT 
+  **/
+#no_result {
+	position: absolute;
+	width: 200px;
+	height: 100px;
+	text-align: center;
+	z-index: 1;
+	margin-left: 300px;
+	margin-top: 200px;
+}
+/**
+  * TRENNLINIE
+  **/
+hr {
+	margin-top: 20px;
+	}
+/**
+  * BILD IM HINTERGRUND
+  **/
+.server_pic {	
+	opacity:0.1;
+	}
+#background-pic {
+	position: absolute; 
+	left: -15px;
+	bottom: 30px;
+	width: 300px;
+	height: 250px;
+	}
+/**
+  * ICON SORTIEREN 
+  **/
+i[class="icon-sort-by-attributes"]{
+	margin-left: 20px;
+}
+/** 
+  * BOOKMARK
+  **/
+img[name="bookmark"] {
+	width: 14px;
+	height: 16px;
+}
+/** 
+  * INPUT CHECKBOX
+  *
+  **/
+#checkbox{
+	position: relative;
+	margin: 20px;
+}
+/** 
+  * TABELLE 
+  **/
+.symbol {
+	width: 25px;
+	height: 25px;
+	top: 5px;
+	position: relative;
+}
+.ampel {
+	margin-left: 50px;
+	width: 22px;
+	height: 22px;
+	}
+table {
+	margin-top: 10px;
+	margin-left: 80px;
+	}
+thead th {
+    font-size: 16px;
+	height: 20px;
+	}
+.one {
+	width: 50px;		
+	}
+.two {	
+	width: 400px;
+	color: #1C86EE;	
+	}
+.three{
+	width: 40px;
+	color: #1C86EE;
+}
+.four { 
+	width: 220px;
+	color: #1C86EE;
+}
+.five {
+	width: 100px !important;
+	color: #1C86EE;
+	}
+.five {
+	width: 50px;
+	color: #1C86EE;
+	}
+td {
+    font-size: 14px;
+	height: 22px;
+	}

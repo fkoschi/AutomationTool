@@ -1,0 +1,167 @@
+<!DOCTYPE htmL>
+<html>
+<head>
+<title>Isotope Test</title>
+<script src="http://code.jquery.com/jquery-latest.js" type="text/javascript"></script>
+<script src="js/isotope/jquery.isotope.min.js" type="text/javascript"></script>
+</head>
+
+<body>
+<style type="text/css">
+a {
+	text-decoration: none;
+	margin: 10px;
+}
+.portfolioContainer {
+	width: 700px;
+	height: 400px;
+	
+}
+#border  {
+	box-shadow: 0px 0px 2px gray;
+}
+#border h3 {
+	font-size: 14px;
+	background: green;
+	margin-bottom: -10px;
+	padding-left: 5px;
+	color: blue;
+}
+#border p {
+	margin-top: -10px;
+	font-weight: bold;
+	font-family: 'Arial';
+	font-size: 12px;
+	text-align: center;
+	
+}
+.isotope-item {
+    z-index: 2;
+}
+.isotope-hidden.isotope-item {
+    pointer-events: none;
+    z-index: 1;
+}
+.isotope,
+.isotope .isotope-item {
+  /* change duration value to whatever you like */
+ 
+    -webkit-transition-duration: 0.8s;
+    -moz-transition-duration: 0.8s;
+    transition-duration: 0.8s;
+}
+.isotope {
+    -webkit-transition-property: height, width;
+    -moz-transition-property: height, width;
+    transition-property: height, width;
+}
+.isotope .isotope-item {
+    -webkit-transition-property: -webkit-transform, opacity;
+    -moz-transition-property: -moz-transform, opacity;
+    transition-property: transform, opacity;
+}
+
+</style>
+<script type="text/javascript">
+$(document).ready(function(){
+	
+	var $container = $('.portfolioContainer');
+	$container.isotope({
+		filter: '*',
+		animationOptions: {
+			duration: 750,
+			easing: 'linear',
+			queue: false
+		}
+	});	
+		
+	$('.portfolioFilter option').click(function(){
+			$('.portfolioFilter .current').removeClass('current');
+			$(this).addClass('current');
+			
+			var selector = $(this).attr('data-filter');
+			$container.isotope({
+				filter: selector,
+				animationOptions: {
+					duration: 750,
+					easing: 'linear',
+					queue: false
+				}
+			});
+		});
+});
+</script>
+
+<div class="portfolioFilter">
+	
+	<select>
+		<option data-filter="*" class="current" selected>Alles</option>
+		<option data-filter=".small" >one</option>
+		<option data-filter=".medium">two</option>
+		<option data-filter=".large">three</option>
+	</select>
+	<!--
+	<a href="#" data-filter="*" class="current">Alles</a>
+	<a href="#" data-filter=".small" >small</a>
+	<a href="#" data-filter=".medium" >medium</a>
+	<a href="#" data-filter=".large" >large</a>
+	-->
+</div>
+
+<div class="portfolioContainer">
+	
+	<div class="small">
+		<img src="img/icons/32/552.png" alt="image">
+	</div>
+	
+	<div class="medium">
+		<img src="img/icons/64/543.png" alt="image" >
+	</div>
+	
+	<div class="medium">	
+		<img src="img/icons/64/542.png" alt="image" >
+	</div>
+	
+	<div class="medium">	
+		<img src="img/icons/64/576.png" alt="image" >
+	</div>	
+	
+	<div class="medium">
+		<img src="img/icons/64/566.png" alt="image" >
+	</div>	
+	
+	<div class="medium">
+		<img src="img/icons/64/532.png" alt="image" >
+	</div>	
+	
+	<div class="medium">
+		<img src="img/icons/64/546.png" alt="image" >
+	</div>
+	
+	<div class="large">
+		<a href="#">
+			<div id="border">				
+				<img src="img/icons/128/522.png" alt="image">
+				<p>eins</p>
+			</div>
+		</a>
+	</div>
+	
+	<div class="large">
+		<div id="border">
+			<img src="img/icons/128/523.png" alt="image">
+			<p>zwei</p>
+		</div>
+	</div>
+	
+	<div class="large">
+		<div id="border">
+			<img src="img/icons/128/526.png" alt="image">
+			<p>drei</p>
+		</div>			
+	</div>
+	
+</div>
+
+</body>
+</html>

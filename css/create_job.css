@@ -1,0 +1,17 @@
+/**
+  * * * * * * * * * * 
+  * Hintergrundbild
+  *
+  */
+.job_pic{
+	opacity:0.2;
+	filter:alpha(opacity=5);
+}
+/**
+  * * * * * * * * * * * * * 
+  * 		TITLE 
+  *
+  */
+#title {
+	margin-bottom: -50px;
+}
